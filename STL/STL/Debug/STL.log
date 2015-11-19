@@ -1,0 +1,72 @@
+﻿Build started 2015/10/19 20:57:44.
+     1>Project "E:\VS2013\MYCODE\STL\STL\STL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Allocator.cpp
+         Allocator.cpp
+     1>e:\vs2013\mycode\stl\stl\hashtable.h(88): warning C4348: 'hashtable' : redefinition of default parameter : parameter 6
+                 e:\vs2013\mycode\stl\stl\hashtable.h(90) : see declaration of 'hashtable'
+     1>e:\vs2013\mycode\stl\stl\allocator.h(181): warning C4101: 'i' : unreferenced local variable
+                 e:\vs2013\mycode\stl\stl\allocator.h(175) : while compiling class template member function 'void *__default_alloc_template<false,0>::refill(size_t)'
+                 e:\vs2013\mycode\stl\stl\allocator.h(151) : see reference to function template instantiation 'void *__default_alloc_template<false,0>::refill(size_t)' being compiled
+                 e:\vs2013\mycode\stl\stl\allocator.h(142) : while compiling class template member function 'void *__default_alloc_template<false,0>::allocate(size_t)'
+                 e:\vs2013\mycode\stl\stl\allocator.h(264) : see reference to function template instantiation 'void *__default_alloc_template<false,0>::allocate(size_t)' being compiled
+                 e:\vs2013\mycode\stl\stl\allocator.h(268) : see reference to class template instantiation '__default_alloc_template<false,0>' being compiled
+                 e:\vs2013\mycode\stl\stl\allocator.h(267) : while compiling class template member function 'void simple_alloc<__hashtable_node<Value> ,Alloc>::deallocate(T *,size_t)'
+                 with
+                 [
+                     Value=const char *
+         ,            Alloc=alloc
+         ,            T=__hashtable_node<const char *> *
+                 ]
+                 e:\vs2013\mycode\stl\stl\vector.h(31) : see reference to function template instantiation 'void simple_alloc<__hashtable_node<Value> ,Alloc>::deallocate(T *,size_t)' being compiled
+                 with
+                 [
+                     Value=const char *
+         ,            Alloc=alloc
+         ,            T=__hashtable_node<const char *> *
+                 ]
+                 e:\vs2013\mycode\stl\stl\vector.h(31) : see reference to class template instantiation 'simple_alloc<__hashtable_node<Value> ,Alloc>' being compiled
+                 with
+                 [
+                     Value=const char *
+         ,            Alloc=alloc
+                 ]
+                 e:\vs2013\mycode\stl\stl\vector.h(29) : while compiling class template member function 'void vector<__hashtable_node<Value> *,Alloc>::deallocate(void)'
+                 with
+                 [
+                     Value=const char *
+         ,            Alloc=alloc
+                 ]
+                 e:\vs2013\mycode\stl\stl\vector.h(87) : see reference to function template instantiation 'void vector<__hashtable_node<Value> *,Alloc>::deallocate(void)' being compiled
+                 with
+                 [
+                     Value=const char *
+         ,            Alloc=alloc
+                 ]
+                 e:\vs2013\mycode\stl\stl\hashtable.h(113) : see reference to class template instantiation 'vector<__hashtable_node<Value> *,Alloc>' being compiled
+                 with
+                 [
+                     Value=const char *
+         ,            Alloc=alloc
+                 ]
+                 e:\vs2013\mycode\stl\stl\hashset.h(12) : see reference to class template instantiation 'hashtable<Value,Value,HashFcn,std::identity<Value>,EqualKey,Alloc>' being compiled
+                 with
+                 [
+                     Value=const char *
+         ,            HashFcn=std::hash<const char *>
+         ,            EqualKey=eqstr
+         ,            Alloc=alloc
+                 ]
+                 e:\vs2013\mycode\stl\stl\allocator.cpp(29) : see reference to class template instantiation 'hash_set<const char *,std::hash<const char *>,eqstr,alloc>' being compiled
+     1>e:\vs2013\mycode\stl\stl\hashtable.h(133): warning C4715: 'hashtable<char const *,char const *,std::hash<char const *>,std::identity<char const *>,eqstr,__default_alloc_template<0,0> >::new_node' : not all control paths return a value
+     1>e:\vs2013\mycode\stl\stl\hashtable.h(133): warning C4715: 'hashtable<int,int,__hash<int>,std::identity<int>,std::equal_to<int>,__default_alloc_template<0,0> >::new_node' : not all control paths return a value
+     1>e:\vs2013\mycode\stl\stl\vector.h(159): warning C4715: 'vector<__hashtable_node<char const *> *,__default_alloc_template<0,0> >::allocate_and_copy' : not all control paths return a value
+     1>e:\vs2013\mycode\stl\stl\vector.h(159): warning C4715: 'vector<__hashtable_node<int> *,__default_alloc_template<0,0> >::allocate_and_copy' : not all control paths return a value
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2013\MYCODE\STL\Debug\STL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VS2013\MYCODE\STL\Debug\STL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2013\MYCODE\STL\Debug\STL.lib" /MACHINE:X86 Debug\Allocator.obj
+         STL.vcxproj -> E:\VS2013\MYCODE\STL\Debug\STL.exe
+     1>Done Building Project "E:\VS2013\MYCODE\STL\STL\STL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67

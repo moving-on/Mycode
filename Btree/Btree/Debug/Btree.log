@@ -1,0 +1,246 @@
+﻿Build started 2015/10/20 22:32:54.
+     1>Project "E:\VS2013\MYCODE\Btree\Btree\Btree.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TestDlg.cpp TestDlgDlg.cpp
+         TestDlgDlg.cpp
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(21): error C2504: 'CWinApp' : base class undefined
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(29): error C2146: syntax error : missing ';' before identifier 'InitInstance'
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(29): error C2433: 'CTestDlgApp::BOOL' : 'virtual' not permitted on data declarations
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(29): warning C4183: 'InitInstance': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(39): error C2143: syntax error : missing ';' before '}'
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(39): warning C4183: 'DECLARE_MESSAGE_MAP': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\btreenode.h(93): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\vs2013\mycode\btree\btree\btreenode.h(164): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(23): error C2504: 'CDialog' : base class undefined
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(26): error C2061: syntax error : identifier 'CWnd'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(31): error C2146: syntax error : missing ';' before identifier 'm_CreateBut'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(32): error C2146: syntax error : missing ';' before identifier 'm_nRandSpin'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(35): error C2146: syntax error : missing ';' before identifier 'm_strInsertData'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(44): error C2061: syntax error : identifier 'CDataExchange'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(49): error C2146: syntax error : missing ';' before identifier 'm_hIcon'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(53): error C2146: syntax error : missing ';' before identifier 'OnInitDialog'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(53): error C2433: 'CTestDlgDlg::BOOL' : 'virtual' not permitted on data declarations
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(53): warning C4183: 'OnInitDialog': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(54): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(54): error C2061: syntax error : identifier 'UINT'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(55): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(56): error C2146: syntax error : missing ';' before identifier 'HCURSOR'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(56): error C2146: syntax error : missing ';' before identifier 'OnQueryDragIcon'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(56): warning C4183: 'OnQueryDragIcon': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(57): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(58): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(59): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(59): error C2061: syntax error : identifier 'UINT'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(60): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(60): error C2061: syntax error : identifier 'UINT'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(62): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(62): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(63): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(64): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(65): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(65): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(69): error C2143: syntax error : missing ';' before 'private'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(69): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(69): warning C4183: 'DECLARE_MESSAGE_MAP': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(71): error C2143: syntax error : missing ';' before '*'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(71): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(72): error C2143: syntax error : missing ';' before '*'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(73): error C2143: syntax error : missing ';' before '*'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(73): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(79): error C2146: syntax error : missing ';' before identifier 'm_VisRect'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(79): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(80): error C2146: syntax error : missing ';' before identifier 'm_Pen'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(19): error C2504: 'CDialog' : base class undefined
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(31): error C2061: syntax error : identifier 'CDataExchange'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(39): error C2143: syntax error : missing ';' before '}'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(39): warning C4183: 'DECLARE_MESSAGE_MAP': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(42): error C2614: 'CAboutDlg' : illegal member initialization: 'CDialog' is not a base or member
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(47): error C2065: 'CDataExchange' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(47): error C2065: 'pDX' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(48): error C2448: 'CAboutDlg::DoDataExchange' : function-style initializer appears to be a function definition
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(54): error C2061: syntax error : identifier 'CDialog'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(58): error C3646: 'END_MESSAGE_MAP' : unknown override specifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(63): error C2091: function returns function
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(63): error C2143: syntax error : missing ';' before 'CTestDlgDlg::{ctor}'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(63): error C2065: 'CWnd' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(63): error C2065: 'pParent' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(64): error C2448: 'CTestDlgDlg::{ctor}' : function-style initializer appears to be a function definition
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(64): error C2143: syntax error : missing ';' before ':'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(64): error C2065: 'pParent' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(65): error C2448: 'CDialog' : function-style initializer appears to be a function definition
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(77): error C2065: 'CDataExchange' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(77): error C2065: 'pDX' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(78): error C2448: 'CTestDlgDlg::DoDataExchange' : function-style initializer appears to be a function definition
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(95): error C2061: syntax error : identifier 'CDialog'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(97): error C3646: 'ON_WM_SYSCOMMAND' : unknown override specifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(98): error C3646: 'ON_WM_PAINT' : unknown override specifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(98): error C2091: function returns function
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(99): error C3646: 'ON_WM_QUERYDRAGICON' : unknown override specifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(99): error C2091: function returns function
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(100): error C3646: 'ON_BN_CLICKED' : unknown override specifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(100): error C2091: function returns function
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(100): error C2065: 'OnInsert' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(101): error C2072: 'BEGIN_MESSAGE_MAP' : initialization of a function
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(101): error C2078: too many initializers
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(101): error C2146: syntax error : missing ';' before identifier 'ON_BN_CLICKED'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(101): error C2065: 'OnDelete' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(102): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(102): error C2078: too many initializers
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(102): error C2146: syntax error : missing ';' before identifier 'ON_WM_HSCROLL'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(103): error C3646: 'ON_WM_VSCROLL' : unknown override specifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(104): error C3646: 'ON_BN_CLICKED' : unknown override specifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(104): error C2091: function returns function
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(104): error C2065: 'OnCreateRand' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(105): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(105): error C2072: 'ON_WM_HSCROLL' : initialization of a function
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(105): error C2078: too many initializers
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(105): error C2146: syntax error : missing ';' before identifier 'ON_BN_CLICKED'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(105): error C2065: 'OnEraseall' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(106): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(106): error C2374: 'ON_BN_CLICKED' : redefinition; multiple initialization
+                 e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(101) : see declaration of 'ON_BN_CLICKED'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(106): error C2078: too many initializers
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(106): error C2146: syntax error : missing ';' before identifier 'ON_BN_CLICKED'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(106): error C2065: 'OnAbout' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(107): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(107): error C2374: 'ON_BN_CLICKED' : redefinition; multiple initialization
+                 e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(101) : see declaration of 'ON_BN_CLICKED'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(107): error C2078: too many initializers
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(107): error C2146: syntax error : missing ';' before identifier 'ON_BN_CLICKED'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(107): error C2065: 'OnSetTreeKey' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(109): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(109): error C2374: 'ON_BN_CLICKED' : redefinition; multiple initialization
+                 e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(101) : see declaration of 'ON_BN_CLICKED'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(109): error C2078: too many initializers
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(109): error C2146: syntax error : missing ';' before identifier 'END_MESSAGE_MAP'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(114): error C3646: 'BOOL' : unknown override specifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(114): error C2143: syntax error : missing ';' before 'CTestDlgDlg::OnInitDialog'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(114): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(115): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(116): error C2653: 'CDialog' : is not a class or namespace name
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(121): error C3861: 'ASSERT': identifier not found
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(122): error C3861: 'ASSERT': identifier not found
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(124): error C2065: 'CMenu' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(124): error C2065: 'pSysMenu' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(124): error C2065: 'FALSE' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(124): error C3861: 'GetSystemMenu': identifier not found
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(125): error C2065: 'pSysMenu' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(127): error C2065: 'CString' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(127): error C2146: syntax error : missing ';' before identifier 'strAboutMenu'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(127): error C2065: 'strAboutMenu' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.cpp(127): fatal error C1003: error count exceeds 100; stopping compilation
+         TestDlg.cpp
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(21): error C2504: 'CWinApp' : base class undefined
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(29): error C2146: syntax error : missing ';' before identifier 'InitInstance'
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(29): error C2433: 'CTestDlgApp::BOOL' : 'virtual' not permitted on data declarations
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(29): warning C4183: 'InitInstance': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(39): error C2143: syntax error : missing ';' before '}'
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlg.h(39): warning C4183: 'DECLARE_MESSAGE_MAP': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\btreenode.h(93): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\vs2013\mycode\btree\btree\btreenode.h(164): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(23): error C2504: 'CDialog' : base class undefined
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(26): error C2061: syntax error : identifier 'CWnd'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(31): error C2146: syntax error : missing ';' before identifier 'm_CreateBut'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(32): error C2146: syntax error : missing ';' before identifier 'm_nRandSpin'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(35): error C2146: syntax error : missing ';' before identifier 'm_strInsertData'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(44): error C2061: syntax error : identifier 'CDataExchange'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(49): error C2146: syntax error : missing ';' before identifier 'm_hIcon'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(53): error C2146: syntax error : missing ';' before identifier 'OnInitDialog'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(53): error C2433: 'CTestDlgDlg::BOOL' : 'virtual' not permitted on data declarations
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(53): warning C4183: 'OnInitDialog': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(54): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(54): error C2061: syntax error : identifier 'UINT'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(55): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(56): error C2146: syntax error : missing ';' before identifier 'HCURSOR'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(56): error C2146: syntax error : missing ';' before identifier 'OnQueryDragIcon'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(56): warning C4183: 'OnQueryDragIcon': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(57): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(58): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(59): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(59): error C2061: syntax error : identifier 'UINT'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(60): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(60): error C2061: syntax error : identifier 'UINT'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(62): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(62): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(63): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(64): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(65): error C2144: syntax error : 'void' should be preceded by ';'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(65): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(69): error C2143: syntax error : missing ';' before 'private'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(69): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(69): warning C4183: 'DECLARE_MESSAGE_MAP': missing return type; assumed to be a member function returning 'int'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(71): error C2143: syntax error : missing ';' before '*'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(71): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(72): error C2143: syntax error : missing ';' before '*'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(73): error C2143: syntax error : missing ';' before '*'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(73): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(79): error C2146: syntax error : missing ';' before identifier 'm_VisRect'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(79): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(80): error C2146: syntax error : missing ';' before identifier 'm_Pen'
+     1>e:\vs2013\mycode\btree\btree\testdlgdlg.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(16): error C2061: syntax error : identifier 'CWinApp'
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(21): error C3646: 'ON_COMMAND' : unknown override specifier
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(21): error C2065: 'ID_HELP' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(21): error C2653: 'CWinApp' : is not a class or namespace name
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(21): error C2065: 'OnHelp' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(22): error C2072: 'BEGIN_MESSAGE_MAP' : initialization of a function
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(22): error C2078: too many initializers
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(22): error C2146: syntax error : missing ';' before identifier 'END_MESSAGE_MAP'
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(27): error C2143: syntax error : missing ';' before 'CTestDlgApp::{ctor}'
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(41): error C2143: syntax error : missing ';' before 'CTestDlgApp::InitInstance'
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(43): error C3861: 'AfxEnableControlContainer': identifier not found
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(53): error C3861: 'Enable3dControlsStatic': identifier not found
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(57): error C2065: 'm_pMainWnd' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(58): error C2039: 'DoModal' : is not a member of 'CTestDlgDlg'
+                 e:\vs2013\mycode\btree\btree\testdlgdlg.h(22) : see declaration of 'CTestDlgDlg'
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(59): error C2065: 'IDOK' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(64): error C2065: 'IDCANCEL' : undeclared identifier
+     1>e:\vs2013\mycode\btree\btree\testdlg.cpp(72): error C2065: 'FALSE' : undeclared identifier
+         Generating Code...
+     1>Done Building Project "E:\VS2013\MYCODE\Btree\Btree\Btree.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.75

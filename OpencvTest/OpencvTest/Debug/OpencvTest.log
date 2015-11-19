@@ -1,0 +1,21 @@
+﻿Build started 2015/10/31 20:00:12.
+     1>Project "E:\VS2013\MYCODE\OpencvTest\OpencvTest\OpencvTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt opencvtest.cpp
+         opencvtest.cpp
+     1>f:\opencv\opencv\build\include\opencv2\core\mat.hpp(1413): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\vs2013\mycode\opencvtest\opencvtest\opencvtest.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\vs2013\mycode\opencvtest\opencvtest\opencvtest.cpp(38): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\vs2013\mycode\opencvtest\opencvtest\opencvtest.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\vs2013\mycode\opencvtest\opencvtest\opencvtest.cpp(65): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\vs2013\mycode\opencvtest\opencvtest\opencvtest.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\vs2013\mycode\opencvtest\opencvtest\opencvtest.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\vs2013\mycode\opencvtest\opencvtest\opencvtest.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2013\MYCODE\OpencvTest\Debug\OpencvTest.exe" /INCREMENTAL /NOLOGO opencv_ts300d.lib opencv_world300d.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib opencv_ts300d.lib opencv_world300d.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:E:\VS2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\VS2013\MYCODE\OpencvTest\Debug\OpencvTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2013\MYCODE\OpencvTest\Debug\OpencvTest.lib" /MACHINE:X86 Debug\opencvtest.obj
+         OpencvTest.vcxproj -> E:\VS2013\MYCODE\OpencvTest\Debug\OpencvTest.exe
+     1>Done Building Project "E:\VS2013\MYCODE\OpencvTest\OpencvTest\OpencvTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.37
